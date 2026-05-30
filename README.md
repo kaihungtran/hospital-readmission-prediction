@@ -4,7 +4,7 @@
 
 ## Overview
 
-Unplanned 30-day readmissions affect 1 in 5 Medicare patients and cost U.S. hospitals $17B annually. This project builds a discharge-time decision support tool that flags high-risk patients before they leave — giving care teams an actionable window to intervene.
+Unplanned 30-day readmissions affect 1 in 5 Medicare patients and cost U.S. hospitals $17B annually. This project builds a discharge-time decision support tool that flags high-risk patients before they leave, giving care teams an actionable window to intervene.
 
 We built a dual-branch neural network: one branch encodes free-text clinical notes using transformer embeddings (RoBERTa, SBERT, ClinicalBERT), the other processes structured features (vitals, lab results, diagnoses). The branches are fused and passed through a classification head trained on the binary readmission label.
 
